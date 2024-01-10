@@ -1,32 +1,32 @@
-# creation-and-analysis-of-the-database
-## Огляд
-Проект на тему аналізу доступності житла та фінансових витрат протягом тривалого часу.
-## Використані технології та інструменти
-Проект обмежується використанням Excel та його вбудованих інструментів для аналізу даних.
-## Джерело даних
-***Дані представляють собою статистику за 2005-2013 рік***, яку надає "Housing Affordability Data System" [(HADS)](https://archives.huduser.gov/portal/datasets/hads.html), представлену Department of Housing and Urban Delevopment. 
-***Набори даних розділені проміжком у 2 роки (2005, 2007, 2009, 2011, 2013), кожен набір даних містить 50-60 тис. записів.***
+## Overview
+A project on the analysis of housing affordability and financial expenses over a long period.
 
-Дані включають правовий, економічний та фізичний огляд стану житла та його мешканців. 
-Зокрема, дані включать інформацію про:
-- Кількість кімнат у житловій одиниці
-- Рік будівництва житлової одиниці
-- Правовий статус житлової одиниці ( вільно чи зайнято, рента чи володіння)
-- Структура сім'ї мешканців
-- Кількість квартир у будинку
-- Ринкова вартість, витрати на житло
-- Кількість мешканців житлової одиниці, дохід домогосподарства
-- Тип житолового району
+## Technologies and Tools Used
+The project is limited to the use of Excel and its built-in data analysis tools.
 
-## Очистка даних
-Усього статистика має більше 90 змінних, тому для зменшення складності аналізу було залишено всього 27 змінних, найважливіших для відповіді на поставлені питання.
-Опис використаних змінних: [List-of-variables-used.docx](https://github.com/IWillCall/creation-and-analysis-of-the-database/files/13881842/List-of-variables-used.docx)
+## Data Source
+The data represents statistics for the years 2005-2013, provided by the "Housing Affordability Data System" [(HADS)](https://archives.huduser.gov/portal/datasets/hads.html), presented by the Department of Housing and Urban Development.
+**Data sets are divided at intervals of 2 years (2005, 2007, 2009, 2011, 2013), each set containing 50-60 thousand records.**
 
-Рівень важливості змінних визначався на основі дослідження [документації](https://archives.huduser.gov/portal/datasets/hads/HADS_doc.pdf) до джерела даних. 
-Зокрема було видалено більшу частину змінних, що стосуються AMI (Area Median Income), коригування доходів та витрат на інфляцію та значення, які демонструють відносність основних метрик до цих змінних. 
-Вони корисні для дослідження різних категорій населення, що не є фокусом проекту.
+The data includes a legal, economic, and physical overview of the state of housing and its residents. Specifically, the data includes information about:
+- The number of rooms in a housing unit
+- The year of construction of the housing unit
+- Legal status of the housing unit (free or occupied, rent or ownership)
+- Family structure of the residents
+- The number of apartments in the building
+- Market value, housing expenses
+- Number of residents in a housing unit, household income
+- Type of residential area
 
-Також було видалено записи, у яких значення ціни житлової одиниці було відсутнє або підозріле ( від'ємні або занадто низькі значення). 
-Так як проект концентрується на аналізі доступності житла, то достовірність ціни є критичною.
+## Data Cleaning
+In total, the statistics have more than 90 variables, so to reduce the complexity of the analysis, **only 27 of the most important variables were retained** to answer the questions posed.
+Description of the variables used: [List-of-variables-used.pdf](./List-of-variables-used.pdf)
+
+The importance level of the variables was determined based on the study of the [documentation](https://archives.huduser.gov/portal/datasets/hads/HADS_doc.pdf) for the data source.
+In particular, most of the variables related to AMI (Area Median Income), adjustments to income and expenses for inflation, and values demonstrating the relativity of the main metrics to these variables were removed.
+They are useful for studying different population categories, which is not the focus of the project.
+
+**Records where the value of the housing unit price was missing or suspicious (negative or too low values) were also removed.**
+As the project focuses on the analysis of housing affordability, the reliability of the price is critical.
 
 
