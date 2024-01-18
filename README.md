@@ -1,5 +1,7 @@
 ## Overview
 A project on the analysis of housing affordability and financial expenses over a long period.
+In the main directory, there are only the processed data for the project as a whole and documentation for them. 
+Each question related to the project has its own repository (Q1, Q2, Q3, Q4), and all analytical reports are located there.
 
 ## Technologies and Tools Used
 The project is limited to the use of Excel and its built-in data analysis tools.
@@ -26,7 +28,6 @@ The importance level of the variables was determined based on the study of the [
 In particular, most of the variables related to AMI (Area Median Income), adjustments to income and expenses for inflation, and values demonstrating the relativity of the main metrics to these variables were removed.
 They are useful for studying different population categories, which is not the focus of the project.
 
-**Records where the value of the housing unit price was missing or suspicious (negative or too low values) were also removed.**
-As the project focuses on the analysis of housing affordability, the reliability of the price is critical.
-
+## Questions
+1. [Is there a difference in market value between occupied and vacant housing units?](./Q1)
 
