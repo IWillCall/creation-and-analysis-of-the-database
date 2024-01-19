@@ -30,4 +30,4 @@ They are useful for studying different population categories, which is not the f
 
 ## Questions
 1. [Is there a difference in market value between occupied and vacant housing units?](./Q1)
-
+2. [Is there a difference in FMR (Fair Market Rent) over the years?](./Q2)
