@@ -1,5 +1,13 @@
 ## **Question**: Is there a difference in FMR (Fair Market Rent) over the years?
 
+## Used Technologies and Skills:
+
+- Data Merging and Cleaning
+- Hypothesis Formulation
+- Conducting Paired t-tests in Excel
+- Calculation of Descriptive Statistics
+- Data Normalization and Visualization
+
 ## Navigation
 - [Conclusion](./Summary.pdf)
 - [Comprehensive Work Progress Report](./Full_report.pdf)
