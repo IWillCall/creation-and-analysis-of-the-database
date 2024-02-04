@@ -1,5 +1,14 @@
 ## **Question**: Is there a difference in market value between occupied and vacant housing units?
 
+## Used Technologies and Skills:
+
+- Data Merging and Cleaning
+- Pivot Tables
+- Formulating Hypotheses
+- Conducting Standard T-tests in Excel
+- Calculating Descriptive Statistics
+- Constructing Histograms
+
 ## Navigation
 - [Conclusion](./Summary.pdf)
 - [Comprehensive Work Progress Report](./Full_report.pdf)
