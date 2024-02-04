@@ -1,10 +1,20 @@
 ## Overview
 A project on the analysis of housing affordability and financial expenses over a long period.
 In the main directory, there are only the processed data for the project as a whole and documentation for them. 
-Each question related to the project has its own repository (Q1, Q2, Q3, Q4), and all analytical reports are located there.
+Each question related to the project has its own repository (Q1, Q2, Q3), and all analytical reports are located there.
 
-## Technologies and Tools Used
+## Used Technologies and Skills
 The project is limited to the use of Excel and its built-in data analysis tools.
+Specific Tools and Skills:
+- Data merging and cleaning
+- Pivot tables
+- Formulation and Testing of Hypotheses
+- Conducting standard and paired t-tests in Excel
+- Calculation of descriptive statistics
+- Histogram construction
+- Building linear regression models
+- Forecasting values based on historical data (Holdout Analysis)
+- Data normalization and visualization
 
 ## Data Source
 The data represents statistics for the years 2005-2013, provided by the "Housing Affordability Data System" [(HADS)](https://archives.huduser.gov/portal/datasets/hads.html), presented by the Department of Housing and Urban Development.
@@ -31,3 +41,5 @@ They are useful for studying different population categories, which is not the f
 ## Questions
 1. [Is there a difference in market value between occupied and vacant housing units?](./Q1)
 2. [Is there a difference in FMR (Fair Market Rent) over the years?](./Q2)
+3. [Can we predict the market value of housing in 2013 based on data from 2011?](./Q3)
+
